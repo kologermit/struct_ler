@@ -1,13 +1,14 @@
+// #include <bits/stdc++.h>
+// #include <iostream>
+// #include "Complex.h"
+#include "Giga_number.h"
 #include <iostream>
-#include <vector>
 using namespace std;
-class A {
-public:
-   // int b;
-   A() {
-      // this->b = b;
-   }
-};
 int main() {
-   A a();
+	Giga_number n(999);
+	n = n + 111 + 10 + 1;
+	cout << n.size << endl;
+	for (int i = 0; i < n.size; i++) {
+		cout << n.num[i] << endl;
+	}
 }
